@@ -5,7 +5,7 @@ body {
   word-wrap: break-word;
   position: relative;
   background: #fff;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #333;
   font-family: "Fira Sans", sans-serif;
   text-align: left;
