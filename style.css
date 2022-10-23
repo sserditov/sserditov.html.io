@@ -1,10 +1,9 @@
 body {
   margin: 10;
   padding: 25;
-  -ms-word-wrap: break-word;
   word-wrap: break-word;
   position: relative;
-  background: #fff;
+  background-color: rgb(211, 238, 246);
   /* font-size: 20px; */
   color: #333;
   font-family: "Fira Sans", sans-serif;
@@ -32,6 +31,32 @@ body {
 }
 
 .text {
-  display: flex;
-  font-size: 32px;
+  display: inline;
+  font-size: 20px;
 }
+#oli {
+margin-top: 20px;
+padding: top 20px;
+font-size: 22px;
+font-style: italic;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
